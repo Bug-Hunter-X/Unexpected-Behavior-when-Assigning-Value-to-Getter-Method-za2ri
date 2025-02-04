@@ -1,0 +1,1 @@
+This example demonstrates a subtle issue in Ruby where assigning a value to a method that only acts as a getter doesn't modify the underlying instance variable.  The code shows how using `instance_variable_set` correctly changes the instance variable.  The solution provides a more explicit setter method for clarity and to avoid unexpected behavior.
